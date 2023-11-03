@@ -1,5 +1,12 @@
 import os
 
+import sys
+
+print ('Number of arguments:'), len(sys.argv)
+print (len(sys.argv))
+print ('Argument List:')
+print (str(sys.argv))
+
 print('add-commit-push')
 print('\ngit status')
 os.system('git status')
