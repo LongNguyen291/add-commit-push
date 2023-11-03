@@ -4,7 +4,7 @@ print('add-commit-push')
 print('\ngit status')
 os.system('git status')
 
-print('\n git add -A')
+print('\ngit add -A')
 os.system('git add -A')
 print('\ngit commit -m "Update files."')
 os.system('git commit -m "Update files."')
